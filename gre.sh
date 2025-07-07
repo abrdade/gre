@@ -2,8 +2,6 @@
 CYAN=$(tput setaf 6)
 YELLOW=$(tput setaf 3)
 RESET=$(tput sgr0)
-
-
 echo -e "${CYAN}"
 echo "===================================="
 echo "        GitHub: AbrDade"
