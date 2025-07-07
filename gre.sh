@@ -5,7 +5,7 @@ RESET=$(tput sgr0)
 echo -e "${CYAN}"
 echo "===================================="
 echo "        GitHub: AbrDade"
-echo "   GRE Tunnel Setup Script"
+echo "   GRE Tunnel v1 Setup Script"
 echo "===================================="
 echo -e "${RESET}"
 
