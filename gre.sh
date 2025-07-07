@@ -1,10 +1,15 @@
 #!/bin/bash
-echo ""
+CYAN=$(tput setaf 6)
+YELLOW=$(tput setaf 3)
+RESET=$(tput sgr0)
+
+
+echo -e "${CYAN}"
 echo "===================================="
 echo "        GitHub: AbrDade"
 echo "   GRE Tunnel Setup Script"
 echo "===================================="
-echo ""
+echo -e "${RESET}"
 
 echo "Select server location:"
 echo "1 - IRAN"
