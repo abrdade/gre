@@ -5,6 +5,7 @@ echo "        GitHub: AbrDade"
 echo "   GRE Tunnel Setup Script"
 echo "===================================="
 echo ""
+
 echo "Select server location:"
 echo "1 - IRAN"
 echo "2 - FOREIGN"
