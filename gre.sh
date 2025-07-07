@@ -21,7 +21,7 @@ if [[ "$LOCATION" == "1" ]]; then
     echo "[*] Running config for IRAN server..."
 
 #    sudo iptables -t mangle -A POSTROUTING -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1380
-    sudo ip link set dev eth0 mtu 1476
+#    sudo ip link set dev eth0 mtu 1476
 
     sudo ip tunnel add AbrDade-m2 mode gre local $IP_IRAN remote $IP_FOREIGN ttl 255
     sudo ip link set AbrDade-m2 up
